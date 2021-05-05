@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "coleccions",
+  "info": {
+    "name": "coleccion",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "contenido": {
+      "type": "richtext"
+    },
+    "creacion": {
+      "type": "datetime"
+    },
+    "activo": {
+      "type": "boolean"
+    },
+    "slug": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
