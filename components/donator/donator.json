@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_donator_donators",
+  "info": {
+    "name": "donator",
+    "icon": "user"
+  },
+  "options": {},
+  "attributes": {
+    "Nombre": {
+      "type": "string"
+    },
+    "Apellido": {
+      "type": "string"
+    },
+    "Direccion": {
+      "type": "string"
+    },
+    "Telefono": {
+      "type": "string"
+    }
+  }
+}
